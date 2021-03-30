@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <filter id="長方形_195" x="0" y="0" width="28" height="28" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#00fff5" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-favicon">
+      <rect width="28" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="favicon" clip-path="url(#clip-favicon)">
+    <rect id="長方形_193" data-name="長方形 193" width="90" height="90" fill="none"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#長方形_195)">
+      <rect id="長方形_195-2" data-name="長方形 195" width="24" height="24" fill="#1f0e80"/>
+    </g>
+  </g>
+</svg>

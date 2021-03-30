@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-アートボード_13">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="アートボード_13" data-name="アートボード – 13" clip-path="url(#clip-アートボード_13)">
+    <g id="new_tab">
+      <path id="パス_63" data-name="パス 63" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="パス_64" data-name="パス 64" d="M17.933,17.933H4.867V4.867H11.4V3H4.867A1.866,1.866,0,0,0,3,4.867V17.933A1.866,1.866,0,0,0,4.867,19.8H17.933A1.872,1.872,0,0,0,19.8,17.933V11.4H17.933ZM13.267,3V4.867h3.351L7.443,14.041l1.316,1.316,9.175-9.175V9.533H19.8V3Z" transform="translate(0.6 0.6)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* TOP> RESERCH */
+
+/* RESERCH SECTION */
+.reseach_img_guide {
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #ECEFF1;
+}
+.research_theme {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 60px; 
+    background: #ECEFF1;
+    border-radius: 5px;
+}
+.research_theme > ul {
+    line-height: 2.2;
+    list-style-position: inside;
+}
+.research_theme > li a {
+    display: inline-block;
+    text-indent: 10px;
+} 
+
+
+
+

@@ -1,0 +1,244 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+body {
+    font-family:'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Meiryo','メイリオ',sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    letter-spacing: 0.05em;
+}
+.inner {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.inner_sub {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 220px;
+    padding-left: 220px;
+}
+.content-full {
+    margin-bottom: 150px; 
+}
+/* TEXT　*/
+a {
+    color: #171783;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    padding: 90px 0 90px 0;
+    font-weight: 300;
+}
+h3 {
+    padding: 0 0 30px 0;
+    font-weight: 300;
+}
+ul {
+    list-style: none;
+}
+.color-blue {
+    color: #000063;
+}
+.color-bk {
+    color: #000000;
+}
+
+.label_blue {
+    color:#ffffff;
+    background:#000063;
+    text-decoration: none;
+}
+.label_blue:hover {
+    background:#1f0e80;
+    box-shadow: 6px 6px 0 0 rgba(60, 194, 235, 0.4);
+}
+.bg_setting {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#ffffff;
+}
+/* 削除 */
+.label_black {
+    color:#ffffff;
+    background:#000000;
+}
+/* GUIDE　*/
+.guide_text {
+    display: inline-block;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+hr {
+    border: none; /* 見た目調整 */
+    height: 1px;
+    background-color: #CFD8DC;
+    margin: 80px 0 0 0 ;
+}
+
+/* BUTTUM_ICON */
+.butn_with_icon {
+    display: inline-block;
+    width: auto;
+    padding: 10px 4px 8px 12px;
+}
+.in_icon {
+    vertical-align: middle;
+    padding: 0 8px 3px 0;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    height: 100px;
+    width: 1000px;
+    padding: 0 ;
+}
+.header img {
+    padding: 0 20px 0 0;
+}
+.lab_logo {
+    vertical-align: bottom
+}
+
+/* MENU */
+nav {
+    height: 100%;
+    background: #000063;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+nav ul li :hover {
+    background:#1f0e80;
+    box-shadow: 6px 6px 0 0 rgba(60, 194, 235, 0.4);
+    position: relative;
+}
+nav ul li a {
+    color: #fff;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: 100px;
+}
+/* HEADLINE */
+.bg_headline {
+    background: rgb(227, 242, 253);
+}
+.bg_breadcrumb {
+    background: #000000;
+    padding: 8px 0 8px 0;
+}
+
+/* BREADCRUMB */
+.cp_breadcrumb *, .cp_breadcrumb *:after, .cp_breadcrumb *:before {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cp_breadcrumb {
+    padding: 8px 0 8px 0;
+	color: #fff;
+    background: #000000;
+}
+.cp_breadcrumb a {
+	text-decoration: none;
+    color: rgba( 255, 255, 255, 0.7);
+}
+.cp_breadcrumb .breadcrumbs {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cp_breadcrumb li {
+	display: inline-block;
+	position: relative;
+	padding-right: calc(16px + 8px);
+	margin-right: 8px;
+    color: rgba( 255, 255, 255, 0.7);
+}
+.cp_breadcrumb li::before {
+	content: "/";
+	width: 1em;
+	height: 1em;
+	line-height: 1;
+	text-align: center;
+    font-size: 15px;
+	color: inherit;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.cp_breadcrumb li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	color: #ffffff;
+}
+.cp_breadcrumb li:last-child::before {
+	content: normal;
+}
+
+/* page_top */
+.page_top {
+    background:#000063;
+    text-align: center;
+    height: 45px;
+    font-size: 14px;
+    padding: 3px 0 0 0;
+  }
+  .page_top a {
+    color: #ffffff;
+  }
+
+/* footer */
+.footer-margin {
+    margin-top: 160px;
+}
+footer {
+    height: 60px;
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+  }
+footer p {
+    display: inline-block;
+    margin: 20px 0;
+  }
+
+.wrapper {
+    min-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.wrapper > * {
+    flex-shrink: 0;
+}
+main {
+    flex-grow: 1;
+}
+.page_top {
+    margin-top: auto;
+}

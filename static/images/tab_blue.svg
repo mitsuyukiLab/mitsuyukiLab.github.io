@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-tab_blue">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="tab_blue" clip-path="url(#clip-tab_blue)">
+    <g id="tab-24px">
+      <g id="グループ_117" data-name="グループ 117">
+        <rect id="長方形_218" data-name="長方形 218" width="24" height="24" fill="none"/>
+      </g>
+      <g id="グループ_119" data-name="グループ 119">
+        <g id="グループ_118" data-name="グループ 118">
+          <path id="パス_67" data-name="パス 67" d="M20,4H4A2.006,2.006,0,0,0,2,6V18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,20,4Zm0,14H4V6h9V8a2.006,2.006,0,0,0,2,2h5Z" fill="#1f0e80"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
