@@ -35,28 +35,28 @@
     text-shadow: 0 2px 4px #2D2D2D;
 }
 
-/* RESEACH */
-.intro_reseach {
+/* research */
+.intro_research {
     height: auto;
     width: 100%;
     padding-bottom: 150px;
 }
-.reseach_bg {
-    background-image: url("../images/bg_reserch.png"); 
+.research_bg {
+    background-image: url("../images/bg_research.png"); 
 }
-.reseach {
+.research {
     display: inline-block;
     position: relative;
 }
-.reseach img {
+.research img {
     vertical-align: bottom; /* adjustment */
     object-fit: cover;
     width: 328px;
 }
-.reseach img:hover {
+.research img:hover {
     filter: brightness(80%);
 }
-.reseach p {
+.research p {
     position: absolute;
     bottom: 0;
     height: 35%;
