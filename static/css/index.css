@@ -51,7 +51,7 @@
 .research img {
     vertical-align: bottom; /* adjustment */
     object-fit: cover;
-    width: 328px;
+    width: 420px;
 }
 .research img:hover {
     filter: brightness(80%);
@@ -59,7 +59,7 @@
 .research p {
     position: absolute;
     bottom: 0;
-    height: 35%;
+    height: 25%;
     width: 100%;
     padding: 15px 15px 15px 15px;
     line-height: 1.6;
